@@ -1,0 +1,5 @@
+// zoom scale based on fov 105
+arctan(0.75 * tan(55 / 2 radians)) / arctan(0.75 * tan(105 / 2 radians)) = 0.827921379 rad
+
+// multiply sensitivity with the scale to obtain zoom sens
+3.9 * 0.827921379 = 3.2288933781
